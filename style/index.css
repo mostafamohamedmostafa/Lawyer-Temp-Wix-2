@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+}
+
+/*<!-- Start Nav Bar -->*/
+.navigation-bar nav {
+  background-color: white;
+  
+}
+
+.navigation-bar .navbar-brand {
+  color:rgb(104, 101, 101) !important;
+  
+}
+
+.navigation-bar .navbar-brand .nav-brand-text {
+  font-size: medium;
+  margin: 1%;
+  
+}
+
+
+.navigation-bar .nav-item {
+  text-align: right;
+  font-size: medium;
+}
+
+
+.navigation-bar .nav-item a {
+  color:rgb(104, 101, 101) !important;
+}
+
+.navigation-bar .nav-item :hover {
+  color: #59abc0 !important;
+}
+
+
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #83e7ff !important ;
+}
+
+@media (max-width: 768px) {
+  .navigation-bar nav {
+  }
+  .navigation-bar .navbar-brand {
+    font-size: small;
+  }
+  .navigation-bar .navbar-brand .nav-brand-text {
+    font-size: small;
+    margin: 1%;
+  }
+
+  .navigation-bar .nav-item {
+    font-size: small;
+  }
+}
+
+/*<!-- End Nav Bar -->*/
+
+/*<!-- Start Intro Section -->*/
+
+.intro-section {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.intro-section .card-group{
+  height: 70vh;
+}
+
+.intro-section .card{
+  border: none;
+
+}
+
+
+
+.intro-section .right-intro-box{
+  background-color: #101b2b;
+
+
+}
+
+
+.intro-section .right-intro-box h2{
+color: white;
+position: absolute;
+top: 30%;
+left:30%
+text
+}
+
+.intro-section .right-intro-box span{
+  color: #59abc0 ;
+  }
+  
+
+
+
+.intro-section .left-intro-box{
+  background-color: #f2f2f2;
+}
+
+/*<!-- End Intro Section -->*/
+
+/*<!-- Start About Section -->*/
+
+.about-section .card {
+  text-align: right;
+  border: none;
+  width: 100% !important;
+}
+
+.about-section .card .card-body {
+  margin-right: 5%;
+}
+
+.about-section .card .contact-card {
+  background-color: #ffb400;
+  border-radius: 10px;
+  width: auto;
+  color: white;
+}
+
+.about-section .card .contact-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-section .card .contact-card ::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: auto;
+  height: 0;
+  border: 13px solid transparent;
+  border-top-color: #ffb400;
+  border-bottom: 0;
+  margin-left: -13px;
+  margin-bottom: -13px;
+}
+
+.about-section .card .other-card {
+  border-top: solid 3px black;
+}
+
+.about-section .card button a {
+  color: white;
+}
+/*<!-- End About Section -->*/
+
+/*<!-- Start News and Specailty Section -->*/
+.new-speacilty-section {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: right;
+}
+
+.new-speacilty-section .speacilty-card {
+  border-top: 3px solid #ffb400;
+}
+
+.new-speacilty-section .speacilty-card .card {
+  border: none;
+}
+
+.new-speacilty-section .speacilty-card h5 {
+  color: #ffb400;
+}
+
+.new-speacilty-section .speacilty-card .card li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.new-speacilty-section .news-card {
+  border-top: 3px solid black;
+}
+
+.new-speacilty-section .news-card .card {
+  border: none;
+}
+
+.new-speacilty-section .news-card .card-news-img {
+  margin: auto;
+}
+
+/*<!-- End News and Specailty Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start About Section -->*/
+
+  .about-section .card {
+    font-size: small;
+  }
+
+  /*<!-- End About Section -->*/
+
+  /*<!-- Start News and Specailty Section -->*/
+  .new-speacilty-section {
+    font-size: small;
+  }
+
+  .new-speacilty-section .speacilty-card {
+    font-size: small;
+  }
+
+  .new-speacilty-section .news-card {
+    font-size: small;
+  }
+
+  .new-speacilty-section .news-card .card {
+    font-size: small;
+  }
+}

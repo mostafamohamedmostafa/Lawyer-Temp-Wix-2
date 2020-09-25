@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+
+/*<!-- Start About Section -->*/
+
+.service-section h5 {
+  text-align: right;
+}
+.service-section .card {
+  text-align: right;
+  border: none;
+  width: 100% !important;
+  margin-right: 1%;
+  border: none;
+
+}
+
+.service-section  .service-black-border{
+  border-top: 3px solid black;
+}
+
+.service-section .service-card {
+  border-top: 3px solid #ffb400;
+}
+
+.service-section .service-card h5{
+  color: #ffb400;
+
+}
+
+/*<!-- End About Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start About Section -->*/
+
+  .service-section .card {
+    font-size: small;
+  }
+
+  /*<!-- End About Section -->*/
+
+   
+
+  
+}

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+
+/*<!-- Start News and Specailty Section -->*/
+.about-firm-section {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: right;
+}
+
+.about-firm-section .card {
+  border: none;
+}
+
+.about-firm-section h5,
+h6 {
+  color: #ffb400;
+}
+
+.about-firm-section .card li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.about-firm-section img {
+  height: 70%;
+}
+
+/*<!-- End News and Specailty Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start About Section -->*/
+
+  /*<!-- Start News and Specailty Section -->*/
+  .about-firm-section {
+    font-size: small;
+  }
+}

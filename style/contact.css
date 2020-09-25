@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    direction: rtl;
+    font-family: "Tajawal", sans-serif;
+  }
+  
+  /*<!-- Start About Section -->*/
+  
+  .contact-us-section h5 {
+    text-align: right;
+  }
+  .contact-us-section .card {
+    text-align: right;
+    border: none;
+    width: 100% !important;
+    border: none;
+  
+  }
+  
+  .contact-us-section .contact-us-black{
+    border-top: 3px solid black;
+  }
+  
+  .contact-us-section .contact-us-yellow {
+    border-top: 3px solid #ffb400;
+  }
+  
+  .contact-us-section .contact-us-yellow h5{
+    color: #ffb400;
+  
+  }
+
+    
+  .contact-us-section .contact-us-yellow a{
+text-decoration: none;  
+  }
+
+
+  
+  /*<!-- End About Section -->*/
+  
+  @media (max-width: 768px) {
+    /*<!-- Start Contact us Section -->*/
+  
+    .contact-us-section .card {
+      font-size: small;
+    }
+
+    .contact-us-section iframe {
+    height: max-content;
+    width: auto;
+ 
+      }
+    
+  
+    /*<!-- End COntact us Section -->*/
+  
+     
+  
+    
+  }
+  

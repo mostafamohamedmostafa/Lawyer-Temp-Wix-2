@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+  }
+   
+  
+  /*<!-- Start Intro Section -->*/
+  
+  .intro-section {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  /*<!-- End Intro Section -->*/
+  
+  /*<!-- Start About Section -->*/
+  
+  .team-section .card {
+    text-align: right;
+    border: none;
+    width: 100% !important;
+  }
+  
+  .team-section .card .card-body {
+    margin-right: 5%;
+  }
+ 
+  
+ 
+  /*<!-- End About Section -->*/
+  
+  @media (max-width: 768px) {
+    /*<!-- Teeam About Section -->*/
+  
+    .team-section .card {
+      font-size: small;
+    }
+  
+    /*<!-- End Team Section -->*/
+  
+    
+  }
+  

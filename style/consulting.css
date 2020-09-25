@@ -1,0 +1,24 @@
+.conuslting-section .card-deck{
+    text-align: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.conuslting-section{
+    margin-top: 3%;
+}
+
+@media (max-width: 768px) {
+    /*<!-- Start About Section -->*/
+  
+    .conuslting-section .card-deck {
+      font-size: small;
+    }
+  
+    /*<!-- End About Section -->*/
+  
+     
+  
+    
+  }
