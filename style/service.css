@@ -9,7 +9,7 @@ body {
   font-family: "Tajawal", sans-serif;
 }
 
-/*<!-- Start About Section -->*/
+/*<!-- Start Services Section -->*/
 
 .service-section h5 {
   text-align: right;
@@ -36,16 +36,16 @@ body {
 
 }
 
-/*<!-- End About Section -->*/
+/*<!-- End Services Section -->*/
 
 @media (max-width: 768px) {
-  /*<!-- Start About Section -->*/
+  /*<!-- Start Services Section -->*/
 
   .service-section .card {
     font-size: small;
   }
 
-  /*<!-- End About Section -->*/
+  /*<!-- End Services Section -->*/
 
    
 

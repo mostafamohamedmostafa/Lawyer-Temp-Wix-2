@@ -6,42 +6,38 @@
 
 body {
   direction: rtl;
-  font-family: 'Tajawal', sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 /*<!-- Start Nav Bar -->*/
 .navigation-bar nav {
   background-color: white;
-  
 }
 
+.navigation-bar .navbar-toggler{
+  background-color:#101b2b;
+}
 .navigation-bar .navbar-brand {
-  color:rgb(104, 101, 101) !important;
-  
+  color: rgb(104, 101, 101) !important;
 }
 
 .navigation-bar .navbar-brand .nav-brand-text {
   font-size: medium;
   margin: 1%;
-  
 }
-
 
 .navigation-bar .nav-item {
   text-align: right;
   font-size: medium;
 }
 
-
 .navigation-bar .nav-item a {
-  color:rgb(104, 101, 101) !important;
+  color: rgb(104, 101, 101) !important;
 }
 
 .navigation-bar .nav-item :hover {
   color: #59abc0 !important;
 }
-
-
 
 .navbar-dark .navbar-nav .active > .nav-link {
   color: #83e7ff !important ;
@@ -69,44 +65,76 @@ body {
 
 .intro-section {
   margin-top: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
 }
 
-.intro-section .card-group{
+.intro-section .card-group {
   height: 70vh;
 }
 
-.intro-section .card{
+.intro-section .card {
   border: none;
-
 }
 
-
-
-.intro-section .right-intro-box{
+.intro-section .right-intro-box {
   background-color: #101b2b;
-
-
 }
 
-
-.intro-section .right-intro-box h2{
-color: white;
-position: absolute;
-top: 30%;
-left:30%
-text
+.intro-section .right-intro-box h2 {
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  font-size: 2.5rem;
+  text-align: right;
 }
 
-.intro-section .right-intro-box span{
-  color: #59abc0 ;
-  }
-  
+.intro-section .right-intro-box span {
+  color:#35d4be;
+}
 
-
-
-.intro-section .left-intro-box{
+.intro-section .left-intro-box {
   background-color: #f2f2f2;
+
+}
+
+.intro-section .left-intro-box .blockquote {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.intro-section .left-intro-box .blockquote i {
+  color: #35d4be;
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    margin-bottom: 10%;
+  }
+  .intro-section .right-intro-box {
+    height: 40vh;
+  }
+
+  .intro-section .right-intro-box h2 {
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    font-size: medium;
+    text-align: right;
+  }
+
+  .intro-section .left-intro-box {
+    height: 50vh;
+  }
+
+  .intro-section .left-intro-box .blockquote {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: small;
+  }
 }
 
 /*<!-- End Intro Section -->*/
@@ -123,39 +151,10 @@ text
   margin-right: 5%;
 }
 
-.about-section .card .contact-card {
-  background-color: #ffb400;
-  border-radius: 10px;
-  width: auto;
-  color: white;
-}
 
-.about-section .card .contact-card a {
-  text-decoration: none;
-  color: white;
-}
 
-.about-section .card .contact-card ::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: auto;
-  height: 0;
-  border: 13px solid transparent;
-  border-top-color: #ffb400;
-  border-bottom: 0;
-  margin-left: -13px;
-  margin-bottom: -13px;
-}
 
-.about-section .card .other-card {
-  border-top: solid 3px black;
-}
-
-.about-section .card button a {
-  color: white;
-}
+.
 /*<!-- End About Section -->*/
 
 /*<!-- Start News and Specailty Section -->*/
@@ -199,26 +198,55 @@ text
 @media (max-width: 768px) {
   /*<!-- Start About Section -->*/
 
-  .about-section .card {
+  .about-section .card .card-body h5{
+    font-size: medium;
+  }
+
+  .about-section .card .card-body {
+    font-size: x-small;
+  }
+
+
+/*<!-- Start Services Section -->*/
+
+.service-section h5 {
+  text-align: right;
+}
+.service-section .card {
+  text-align: right;
+  border: none;
+  width: 100% !important;
+  margin-right: 1%;
+  border: none;
+
+}
+
+.service-section  .service-black-border{
+  border-top: 3px solid black;
+}
+
+.service-section .service-card {
+  border-top: 3px solid #ffb400;
+}
+
+.service-section .service-card h5{
+  color: #ffb400;
+
+}
+
+/*<!-- End Services Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start Services Section -->*/
+
+  .service-section .card {
     font-size: small;
   }
 
-  /*<!-- End About Section -->*/
+  /*<!-- End Services Section -->*/
 
-  /*<!-- Start News and Specailty Section -->*/
-  .new-speacilty-section {
-    font-size: small;
-  }
+   
 
-  .new-speacilty-section .speacilty-card {
-    font-size: small;
-  }
-
-  .new-speacilty-section .news-card {
-    font-size: small;
-  }
-
-  .new-speacilty-section .news-card .card {
-    font-size: small;
-  }
+  
+}
 }
