@@ -41,7 +41,13 @@ body {
     width: auto;
   }
 }
-.contact-us-section .card-body{
-  border: none;
+.contact-us-section .card{
+  border: none !important;
+}
+
+
+.contact-us-section .card form input{
+  border: none !important;
+  background-color:#f2f2f2;
 }
 /*    <!-- End Intro Section -->*/
