@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+
+/*    <!-- Start Intro Section -->*/
+.question-intro-section {
+  text-align: right;
+}
+
+.question-intro-section .card-body {
+  background-color: #f2f2f2;
+  font-size: medium;
+  height: 25vh;
+}
+
+.question-intro-section .card-body h2 {
+  padding-top: 2%;
+}
+
+@media (max-width: 768px) {
+  .question-intro-section .card-body h2 {
+    font-size: medium;
+  }
+  .question-intro-section .card-body {
+    height: auto;
+  }
+}
+
+/*    <!-- End Intro Section -->*/
+
+/*    <!-- Start Question Section -->*/
+
+
+.legal-question{
+    text-align: right;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.legal-question .card-header{
+    background: none ;
+    border-top: none;
+    border-bottom: none;
+    border-bottom: 1px solid royalblue;
+
+
+}
+
+.legal-question .card{
+    border: none !important;
+}
+.legal-question a{
+    text-align: right;
+    border-left:none ;
+    border-right: none;
+}
+
+
+/*    <!-- End Question Section -->*/
+
+
