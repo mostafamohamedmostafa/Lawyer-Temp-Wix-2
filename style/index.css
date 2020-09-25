@@ -14,8 +14,8 @@ body {
   background-color: white;
 }
 
-.navigation-bar .navbar-toggler{
-  background-color:#101b2b;
+.navigation-bar .navbar-toggler {
+  background-color: #101b2b;
 }
 .navigation-bar .navbar-brand {
   color: rgb(104, 101, 101) !important;
@@ -90,12 +90,11 @@ body {
 }
 
 .intro-section .right-intro-box span {
-  color:#35d4be;
+  color: #35d4be;
 }
 
 .intro-section .left-intro-box {
   background-color: #f2f2f2;
-
 }
 
 .intro-section .left-intro-box .blockquote {
@@ -151,9 +150,6 @@ body {
   margin-right: 5%;
 }
 
-
-
-
 .
 /*<!-- End About Section -->*/
 
@@ -198,16 +194,18 @@ body {
 @media (max-width: 768px) {
   /*<!-- Start About Section -->*/
 
-  .about-section .card .card-body h5{
+  .about-section .card .card-body h5 {
     font-size: medium;
   }
 
   .about-section .card .card-body {
     font-size: x-small;
   }
-
-
+}
 /*<!-- Start Services Section -->*/
+.service-section {
+  background-color: #f2f2f2;
+}
 
 .service-section h5 {
   text-align: right;
@@ -218,20 +216,11 @@ body {
   width: 100% !important;
   margin-right: 1%;
   border: none;
-
+  background-color: #f2f2f2;
 }
-
-.service-section  .service-black-border{
-  border-top: 3px solid black;
-}
-
-.service-section .service-card {
-  border-top: 3px solid #ffb400;
-}
-
-.service-section .service-card h5{
-  color: #ffb400;
-
+.service-section .card-group span {
+  font-size: x-large;
+  border-bottom: #35d4be 3px solid;
 }
 
 /*<!-- End Services Section -->*/
@@ -244,9 +233,32 @@ body {
   }
 
   /*<!-- End Services Section -->*/
-
-   
-
-  
 }
+
+  /*<!-- Start Footer Section -->*/
+.site-footer {
+  background-color: #101b2b;
+  height: 30vh;
+  font-size: xx-large;
+  text-align: right;
 }
+.site-footer a {
+  text-decoration: none;
+  color: #59abc0;
+}
+
+.site-footer p{
+  color: white;
+}
+@media (max-width: 768px) {
+
+  .site-footer {
+
+    font-size: large;
+  }
+
+}
+
+    /*<!-- End Footer Section -->*/
+
+
