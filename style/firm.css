@@ -16,13 +16,14 @@ body {
   text-align: right;
 }
 
+
 .about-firm-section .card {
   border: none;
 }
 
 .about-firm-section h5,
 h6 {
-  color: #ffb400;
+  color:#59abc0;
 }
 
 .about-firm-section .card li {
@@ -43,4 +44,35 @@ h6 {
   .about-firm-section {
     font-size: small;
   }
+}
+
+
+/*<!-- Start Team Section -->*/
+
+
+.team-section .card {
+  text-align: right;
+  border: none;
+  width: 100% !important;
+
+}
+
+.team-section .card .card-body {
+  margin-right: 5%;
+}
+
+
+
+/*<!-- End About Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Teeam About Section -->*/
+
+  .team-section .card {
+    font-size: small;
+  }
+
+  /*<!-- End Team Section -->*/
+
+  
 }
